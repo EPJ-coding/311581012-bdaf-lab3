@@ -37,6 +37,7 @@
 ## Install
 With [npm](https://npmjs.org/) installed, run
 
+    $ npm install --save-dev hardhat
     $ npm install --save @nomiclabs/hardhat-etherscan
     $ npm install ethers mocha
     $ npm install --save-dev @openzeppelin/contracts
