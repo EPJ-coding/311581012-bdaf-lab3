@@ -27,17 +27,14 @@
 
 - Approve some allowance to bank contract, use `approve` function in write function, input `0xacD36E8A30f90E6c20E790De89476eD372CA3a84` (bank contract address) in `spender` row
 ![image](https://github.com/EPJ-coding/311581012-bdaf-lab3/blob/main/pictures/approve.png)
-- import token address `0x93ce1B10B272d279d469C4D17D1e8d237be20B39` to your wallet, you should find have some DAI in your wallet now
 
+- import token address `0x93ce1B10B272d279d469C4D17D1e8d237be20B39` to your wallet, you should find have some DAI in your wallet now
 - Then you can go to [Bank contract](https://goerli.etherscan.io/address/0xacD36E8A30f90E6c20E790De89476eD372CA3a84#writeContract).
 - Connect to wallet, interact with `deposit` and `withdraw` function in write function
 ![image](https://github.com/EPJ-coding/311581012-bdaf-lab3/blob/main/pictures/bank.png)
 
-
 # Bank with deposit & withdraw implement
-
 ## Install
-
 With [npm](https://npmjs.org/) installed, run
 
     $ npm install --save @nomiclabs/hardhat-etherscan
@@ -46,17 +43,14 @@ With [npm](https://npmjs.org/) installed, run
     $ npm install --save dotenv
     
 ## Compile
-
     $ cd bank/
     $ npx hardhat compile
-
+    
 ## Test Bank function(create a ERC20 Token for test)
-
     $ npx hardhat test
     
 ## Set .env
   set your PRIVATE_KEY, infura ENDPOINT_URL(goerli) and ETHERSCAN_API_KEY
-
     $ PRIVATE_KEY = ""
     $ ENDPOINT_URL = ""
     $ ETHERSCAN_API_KEY = ""
@@ -64,16 +58,12 @@ With [npm](https://npmjs.org/) installed, run
 ## Deploy to goerli    
     npx hardhat run scripts/deploy.js --network goerli
     
-    
 # ERC20 Token Implement
-
 ## Compile
-
     $ cd ../token
     $ npx hardhat compile
 
 ## Test Token function
-
     $ npx hardhat test
     
 ## Set .env
