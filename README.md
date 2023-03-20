@@ -67,8 +67,6 @@ With [npm](https://npmjs.org/) installed, run
     
 # ERC20 Token Implement
 
-## Install
-    
 ## Compile
 
     $ cd ../token
