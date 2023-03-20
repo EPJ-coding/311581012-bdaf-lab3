@@ -49,8 +49,8 @@ With [npm](https://npmjs.org/) installed, run
 ## Test Bank function(create a ERC20 Token for test)
     $ npx hardhat test
     
-## Set .env
-  set your PRIVATE_KEY, infura ENDPOINT_URL(goerli) and ETHERSCAN_API_KEY
+## Create a .env file and set your personal key
+  set your PRIVATE_KEY, infura ENDPOINT_URL (goerli) and ETHERSCAN_API_KEY
   
     $ PRIVATE_KEY = ""
     $ ENDPOINT_URL = ""
@@ -67,8 +67,8 @@ With [npm](https://npmjs.org/) installed, run
 ## Test Token function
     $ npx hardhat test
     
-## Set .env
-  set your PRIVATE_KEY, infura ENDPOINT_URL(goerli) and ETHERSCAN_API_KEY
+## Create a .env file and set your personal key
+  set your PRIVATE_KEY, infura ENDPOINT_URL (goerli) and ETHERSCAN_API_KEY
 
     $ PRIVATE_KEY = ""
     $ ENDPOINT_URL = ""
